@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.assignment-container {
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  .assignment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #192a3a;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .assignment-header h2 {
+    margin: 0;
+  }
+  
+  .add-topic-button {
+    background-color: white;
+    color: #192a3a;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 13px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    
+    text-decoration: solid;
+  }
+  
+  .assignment-list {
+    background-color: white;
+    padding: 10px;
+    border-radius: 0 0 8px 8px;
+  }
+  
+  .assignment-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px 0;
+  }
+  
+  .assignment-item h3 {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .assignment-item p {
+    margin: 0;
+    color: #555;
+  }
+  
+  .assignment-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-button, .delete-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    height: 28px;
+    width: 29px;
+    transition: 0.2s;
+  }
+  
+  .edit-button:hover, .delete-button:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 5px black;
+  }
+  
+  .delete-button {
+    color: #ff4d4f;
+  }
+  .form-container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .add-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .add-button:hover {
+    background-color: #218838;
+  }
+  
